@@ -1,0 +1,19 @@
+.github-sign-up-button {
+  background-color: rgba(46, 164, 79);
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  height: 34px;
+  width: 90px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.github-sign-up-button:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.github-sign-up-button:active {
+  opacity: 0.8;
+}
