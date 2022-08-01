@@ -1,8 +1,20 @@
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .get-started-button {
   background-color: rgba(121, 82, 179);
   color: white;
   height: 36px;
   width: 100px;
+  margin-right: 5px;
   border-style: none;
   border-radius: 3px;
   font-size: 12px;
