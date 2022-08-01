@@ -1,0 +1,30 @@
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+}
+
+.button-back {
+  margin-right: 8px;
+  padding: 8px 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-next {
+  margin-left: 8px;
+  padding: 8px 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
