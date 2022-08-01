@@ -1,3 +1,14 @@
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .github-sign-up-button {
   background-color: rgba(46, 164, 79);
   color: white;
