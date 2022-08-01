@@ -12,8 +12,7 @@
 .get-started-button {
   background-color: rgba(121, 82, 179);
   color: white;
-  height: 36px;
-  width: 100px;
+  padding: 11px 30px;
   margin-right: 5px;
   border-style: none;
   border-radius: 3px;
@@ -34,8 +33,7 @@
 .download-button {
   background-color: transparent;
   color: rgb(108, 117, 125);
-  height: 36px;
-  width: 100px;
+  padding: 10px 30px;
   border-width: 1px;
   border-color: rgb(108, 117, 125);
   border-style: solid;

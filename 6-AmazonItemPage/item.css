@@ -24,8 +24,7 @@
 .add-to-cart-button {
   background-color: rgb(255, 216, 20);
   color: rgb(0, 0, 0);
-  height: 30px;
-  width: 110px;
+  padding: 7px 35px;
   border-style: none;
   border-radius: 15px;
   transition: background-color 0.15s, opacity 0.15s;
@@ -43,8 +42,7 @@
 .buy-now-button {
   background-color: rgb(255, 164, 28);
   color: rgb(0, 0, 0);
-  height: 30px;
-  width: 110px;
+  padding: 7px 35px;
   border-style: none;
   border-radius: 15px;
   margin-left: 8px;

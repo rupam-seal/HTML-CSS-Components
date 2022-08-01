@@ -12,8 +12,7 @@
 .amazon-add-to-cart-button {
   background-color: rgb(255, 216, 10);
   color: #000000;
-  height: 30px;
-  width: 150px;
+  padding: 7px 35px;
   border: none;
   border-radius: 15px;
   cursor: pointer;

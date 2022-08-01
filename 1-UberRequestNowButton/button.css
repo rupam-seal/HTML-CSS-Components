@@ -13,8 +13,7 @@
   color: white;
   background-color: #000000;
   border-style: none;
-  height: 36px;
-  width: 100px;
+  padding: 10px 15px;
   border-radius: 2px;
   cursor: pointer;
   transition: opacity 0.15s;
