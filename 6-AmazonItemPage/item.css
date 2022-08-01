@@ -1,3 +1,8 @@
+.container {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
 .back-link {
   color: rgb(0, 113, 133);
   transition: color 0.15s;
