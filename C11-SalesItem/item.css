@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title {
+  color: rgb(37, 37, 41);
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 2px;
+}
+
+.description {
+  color: rgb(255, 35, 35);
+  font-size: 14px;
+  font-style: italic;
+}
