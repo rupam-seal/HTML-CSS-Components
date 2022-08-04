@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user-info {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.username {
+  color: rgb(96, 96, 96);
+  font-weight: lighter;
+}
+
+.time {
+  color: rgb(96, 96, 96);
+  font-weight: lighter;
+}
+
+.description {
+  color: black;
+  font-size: 14px;
+  width: 450px;
+  margin-bottom: 16px;
+}
+
+.sub-description {
+  color: black;
+  font-size: 14px;
+  width: 450px;
+}
+
+.link {
+  color: rgb(0, 149, 255);
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+.link:active {
+  opacity: 1;
+}
