@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+}
+
+p {
+  font-family: Verdana;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title-txt {
+  color: rgb(37, 37, 41);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.second-txt {
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.desc-txt {
+  color: rgb(37, 37, 41);
+  font-size: 12px;
+  font-weight: 500;
+  width: 210px;
+  margin-bottom: 16px;
+}
+
+.get-started {
+  padding: 5px 5px;
+  font-size: 12px;
+  font-family: Verdana;
+  color: white;
+  background-color: green;
+  border-style: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.get-started:hover {
+  opacity: 0.8;
+}
+
+.get-started:active {
+  opacity: 1;
+}
