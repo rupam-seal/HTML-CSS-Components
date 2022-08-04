@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+}
+
+p {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.new {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.name {
+  color: rgb(37, 37, 41);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.desc {
+  color: rgb(0, 0, 0);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.price {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.buy {
+  margin: auto;
+  padding: 5px 14px;
+  display: block;
+  background-color: rgb(57, 94, 255);
+  color: white;
+  border-style: none;
+  border-radius: 15px;
+  transition: opacity 0.15s;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buy:hover {
+  opacity: 0.8;
+}
+
+.buy:active {
+  opacity: 1;
+}
