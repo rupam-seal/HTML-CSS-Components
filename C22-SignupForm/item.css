@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+}
+
+.first-name,
+.last-name {
+  width: 100px;
+  margin-right: 5px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.email {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 230px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.sign-up-button {
+  width: 250px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #1da1f2;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.sign-up-button:hover {
+  opacity: 0.8;
+}
+
+.sign-up-button:active {
+  opacity: 1;
+}
