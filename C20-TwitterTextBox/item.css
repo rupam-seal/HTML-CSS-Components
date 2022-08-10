@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+}
+
+p,
+img {
+  font-family: Arial;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: right;
+  vertical-align: middle;
+}
+
+.input {
+  width: 200px;
+  font-size: 14px;
+  border-style: none;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.tweet {
+  background-color: rgb(79, 176, 255);
+  color: white;
+  padding: 5px 12px;
+  border-style: none;
+  border-radius: 15px;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+}
