@@ -1,0 +1,45 @@
+.title,
+.pickup,
+.destination,
+.request,
+.schedule {
+  font-family: Arial;
+  margin: 0px;
+}
+
+.title {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.pickup,
+.destination {
+  display: block;
+  margin-bottom: 5px;
+  width: 250px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgba(130, 130, 130, 0.1);
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.request {
+  border-style: none;
+  border-radius: 2px;
+  padding: 9px 15px;
+  margin-top: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.schedule {
+  border-style: none;
+  border-radius: 2px;
+  padding: 9px 15px;
+  margin-top: 16px;
+  background-color: rgba(130, 130, 130, 0.1);
+  color: #000000;
+  font-size: 12px;
+}
