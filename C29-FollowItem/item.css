@@ -1,0 +1,91 @@
+body {
+  padding: 50px;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user-container {
+  width: 400px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 10px rgba(78, 78, 78, 0.1);
+  transition: margin 0.5s;
+  cursor: pointer;
+}
+
+.user-container:hover {
+  margin-left: 5px;
+}
+
+.profile-info {
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile-image-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.profile-text-container {
+  display: inline-block;
+}
+
+.profile-username,
+.profile-description,
+.profile-status {
+  font-size: 14px;
+}
+
+.profile-username {
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: rgb(0, 0, 0);
+}
+
+.profile-description {
+  margin-bottom: 4px;
+  color: rgb(96, 96, 96);
+}
+.profile-status {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.follow-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.follow-button {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(38, 172, 255);
+  border-style: none;
+  border-radius: 5px;
+  padding: 6px 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.follow-button:hover {
+  opacity: 0.8;
+}
+
+.follow-button:active {
+  opacity: 1;
+}
