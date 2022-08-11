@@ -1,0 +1,55 @@
+body {
+  padding: 50px;
+}
+
+.container {
+  display: inline-block;
+  background-color: white;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+p,
+img {
+  font-family: Arial;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: right;
+  vertical-align: middle;
+}
+
+.input {
+  width: 200px;
+  font-size: 14px;
+  border-style: none;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.tweet {
+  background-color: rgb(79, 176, 255);
+  color: white;
+  padding: 5px 12px;
+  border-style: none;
+  border-radius: 15px;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.15s;
+}
+
+.tweet:hover {
+  opacity: 0.8;
+}
+
+.tweet:active {
+  opacity: 1;
+}
