@@ -1,0 +1,60 @@
+body {
+  padding: 50px;
+}
+
+.container {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: right;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: Arial;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.name {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.freinds {
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.add {
+  background-color: rgb(44, 139, 255);
+  border-style: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  color: white;
+  margin-bottom: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.15px;
+  cursor: pointer;
+}
+
+.add:hover {
+  opacity: 0.9;
+}
+
+.add:active {
+  opacity: 1;
+}
