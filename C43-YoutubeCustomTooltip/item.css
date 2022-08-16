@@ -1,0 +1,116 @@
+body {
+  padding: 50px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial;
+}
+
+.video-card {
+  width: 300px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.thumbnail-container {
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 300px;
+}
+
+.time {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 4px 5px;
+  border-radius: 2px;
+}
+
+.channel-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.video-info {
+  display: inline-block;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.video-description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.channel-name {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.channel-stats {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.tooltip {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  margin-top: 10px;
+  opacity: 0;
+  z-index: 100;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.channel-container:hover .tooltip {
+  opacity: 1;
+}
+
+.t-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.tooltip img {
+  width: 42px;
+  height: 42px;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+
+.t-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.t-desc {
+  font-size: 12px;
+}
