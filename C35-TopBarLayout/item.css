@@ -1,0 +1,40 @@
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7353aa;
+  padding: 15px 70px;
+  border-radius: 5px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+input {
+  flex: 1;
+  padding: 10px 20px;
+  background-color: white;
+  border-style: none;
+  border-radius: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  max-width: 500px;
+  width: 0;
+}
+
+button {
+  border-style: solid;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
