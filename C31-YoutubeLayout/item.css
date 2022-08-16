@@ -1,0 +1,166 @@
+body {
+  padding: 50px;
+}
+
+body {
+  background-color: #191919;
+}
+
+p {
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.item-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.thumbnail-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.thumbnail {
+  width: 350px;
+  cursor: pointer;
+}
+
+.info-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  width: 290px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.stats {
+  font-size: 12px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.channal-container {
+  margin-top: 15px;
+  display: inline-block;
+  transition: visibility 0.2s;
+}
+
+.tool-tip-text {
+  visibility: hidden;
+  font-size: 12px;
+  background-color: rgba(159, 159, 159, 0.171);
+  color: #fff;
+  text-align: center;
+  padding: 6px 6px;
+  margin-left: 10px;
+  font-family: Arial;
+  transition: visibility 0.2s;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.channal-container:hover .tool-tip-text {
+  visibility: visible;
+}
+
+.channal-logo {
+  width: 30px;
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.channal-name {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.channal-name:hover {
+  opacity: 1;
+}
+
+.description {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 15px;
+  width: 350px;
+  cursor: pointer;
+}
+
+.content-container {
+  width: 320px;
+  margin-top: 15px;
+  background-color: rgb(35, 35, 35);
+  padding: 4px 4px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.content-container:hover {
+  background-color: rgb(66, 66, 66);
+}
+
+.left-content {
+  display: inline-block;
+  width: 70%;
+}
+
+.content-image {
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.content-description {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.right-content {
+  display: inline-block;
+}
+
+.content-count {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.res-container {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.res,
+.cc {
+  background-color: rgb(48, 48, 48);
+  color: rgb(159, 159, 159);
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 3px;
+  cursor: pointer;
+}
